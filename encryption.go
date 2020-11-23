@@ -2,14 +2,6 @@ package base
 
 import (
 	"errors"
-	"golang.org/x/crypto/chacha20poly1305"
-
-)
-
-const (
-	SecretKeyLength  = chacha20poly1305.KeySize
-	PublicKeyLength  = 32
-	PrivateKeyLength = 32
 )
 
 var (
